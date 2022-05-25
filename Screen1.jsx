@@ -1,6 +1,8 @@
-import React from 'react'
+import React,{useState} from 'react'
 
 const Screen1 = () => {
+    
+    const [state, setState] = useState(initialState);
 
     return (
         <div className="App">
